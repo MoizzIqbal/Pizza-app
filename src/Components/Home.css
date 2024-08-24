@@ -1,0 +1,33 @@
+.bg-img{
+    background-image: url("../Images/pizza.jpeg");
+    background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* width: 100%; */
+  height: 90vh;
+}
+.des{
+  position: relative;
+  top: 10rem;
+  /* left: 2rem; */
+  padding-left: 40px;
+  line-height: 40px;
+}
+
+
+.p{
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+@media (max-width:500px) {
+  .des {
+    background-color: white;
+    height: 200px;
+    width: 60%;
+    align-items: center;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

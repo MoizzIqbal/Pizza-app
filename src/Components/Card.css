@@ -1,0 +1,9 @@
+.menu-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
+  
